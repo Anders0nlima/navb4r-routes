@@ -1,0 +1,26 @@
+import {Link} from 'react-router-dom'
+import styles from './NavBar.module.css'
+import Logo from '../../public/logo-nav.png'
+
+
+function NavBar(){
+    return(
+        <div className={styles.list}>
+
+          <div className={styles.logoGeral}>
+            <img className={styles.logo} src={Logo} alt='logo da navegação'/>
+          </div>
+
+          <Link className={styles.item} to="/">Home</Link>
+
+          <Link className={styles.item} to="/sobre">Sobre</Link>
+
+          <Link  className={styles.item} to="/contato">Contato</Link>
+
+          <Link className={styles.item} to="/autores">Autores</Link>
+
+        </div>
+    )
+}
+
+export default NavBar
