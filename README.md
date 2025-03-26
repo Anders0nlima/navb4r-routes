@@ -23,7 +23,7 @@ export default defineConfig({
   "type": "module",
 ```
 3 - **Terminal:**
-npm install gh-pages
+`npm install gh-pages`
 
 4 - **scripts: predeploy and deploy**
 ``` js
@@ -34,12 +34,7 @@ npm install gh-pages
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
 ```
-5 - **Terminal:**
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/<username>/<repositoryName>.git
-git push -u origin main
+5 - **Terminal:**  
+`git init && git add . && git commit -m "first commit" && git branch -M main && git remote add origin https://github.com/<username>/<repositoryName>.git && git push -u origin main`
 6 - **Terminal:**
-npm run deploy
+`npm run deploy`
