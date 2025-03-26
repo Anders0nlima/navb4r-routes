@@ -5,7 +5,7 @@
 ### - Vite for fast and optimized development.
 ### - React for building the user interface.
 ### - React Router DOM for navigation 
-##📤 How I Uploaded the Project to GitHub
+## 📤 How I Uploaded the Project to GitHub
 ### To upload this project to GitHub, I followed these steps:
 1️ - **vite.config.js: you have to put the name of your portfolio in base**
 ``` js
