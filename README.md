@@ -35,6 +35,6 @@ export default defineConfig({
     "deploy": "gh-pages -d dist"
 ```
 5 - **Terminal:**  
-`git init && git add . && git commit -m "first commit" && git branch -M main && git remote add origin https://github.com/<username>/<repositoryName>.git && git push -u origin main`
+`git init` `git add .` `git commit -m "first commit"` `git branch -M main` `git remote add origin https://github.com/<username>/<repositoryName>.git` `git push -u origin main`
 6 - **Terminal:**
 `npm run deploy`
